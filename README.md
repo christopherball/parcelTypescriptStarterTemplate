@@ -2,6 +2,7 @@
 
 Provides a starter template that incorporates parcel, typescript and scss.
 
+- `npm install` Installs node_modules included in package.json.
 - `npm run build` produces a clean parcel build in the `dist` folder.
 - `npm run start` produces a build and launches a local server.
 
