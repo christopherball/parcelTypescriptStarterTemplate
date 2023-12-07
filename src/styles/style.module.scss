@@ -1,0 +1,6 @@
+@use "variables" as *;
+
+:export {
+  pgIndexHeaderColor: $pgIndexHeaderColor;
+  pg2HeaderColor: $pg2HeaderColor;
+}

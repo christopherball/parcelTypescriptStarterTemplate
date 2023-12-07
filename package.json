@@ -1,0 +1,19 @@
+{
+  "name": "parcel-typescript-starter-template",
+  "version": "1.0.0",
+  "description": "Provides a starter template that incorporates parcel, typescript and scss.",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && parcel build ./src/html/* --no-cache",
+    "start": "npm run clean && parcel ./src/html/* --no-cache"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.3",
+    "parcel": "^2.10.3",
+    "postcss": "^8.4.32",
+    "postcss-modules": "^4.3.1"
+  }
+}
